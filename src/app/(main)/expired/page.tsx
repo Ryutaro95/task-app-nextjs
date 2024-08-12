@@ -22,9 +22,11 @@ const ExpiredTaskPage = async () => {
       <header className="flex justify-between items-center">
         <h1 className="text-2xl font-bold flex items-center">Expired Tasks</h1>
       </header>
-      {expiredTasks.map((task) => (
-        <TaskCard key={task._id} task={task} />
-      ))}
+      <div className="mt-8 flex flex-wrap gap-4">
+        {expiredTasks.map((task) => (
+          <TaskCard key={task._id} task={task} />
+        ))}
+      </div>
     </div>
   );
 };
