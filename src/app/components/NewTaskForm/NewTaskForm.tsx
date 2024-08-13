@@ -12,7 +12,7 @@ const NewTaskForm = () => {
     return (
       <button
         type="submit"
-        className="mt-8 py-2 w-full rounded-md text-white bg-gray-800 hover:bg-gray-700 text-sm font-semibold shadow-sm disabled:bg-gray-400"
+        className="mt-8 py-2 w-full rounded-md text-white bg-indigo-600 hover:bg-indigo-800 text-sm font-semibold shadow-sm disabled:bg-indigo-300"
         disabled={pending}
       >
         Create
